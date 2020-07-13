@@ -1,6 +1,6 @@
 package Interface;
 
-public interface ITest
+public interface IPerson
 {
 	public void show();
 }

@@ -1,15 +1,14 @@
 package Interface;
 
-public class Main
-{
-	static ITest human = new _Human();
-	static ITest orc = new _Orc();
-	static ITest devil = new _Devil();
+public class Main {
+    public static void main(String[] args) {
 
-	public static void main(String[] args)
-	{
-		Main.human.show();
-		Main.orc.show();
-		Main.devil.show();
-	}
+        IPerson human = new _Human();
+        IPerson orc = new _Orc();
+        IPerson devil = new _Devil();
+
+        human.show();
+        orc.show();
+        devil.show();
+    }
 }

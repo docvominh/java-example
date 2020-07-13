@@ -1,6 +1,6 @@
 package Interface;
 
-public class _Orc implements ITest
+public class _Orc implements IPerson
 {
 
 	@Override

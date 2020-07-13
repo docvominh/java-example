@@ -1,6 +1,6 @@
 package Interface;
 
-public class _Human implements ITest
+public class _Human implements IPerson
 {
 	@Override
 	public void show()

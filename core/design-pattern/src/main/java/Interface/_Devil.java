@@ -1,6 +1,6 @@
 package Interface;
 
-public class _Devil implements ITest
+public class _Devil implements IPerson
 {
 
 	@Override
